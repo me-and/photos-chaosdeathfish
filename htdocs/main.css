@@ -1,0 +1,15 @@
+body{background-color:black;color:white}
+a:link{color:#28e000}
+a:visited{color:#28e0df}
+a:active{color:#e02828}
+ul{padding:0}
+li{display:inline;padding:0;border:0}
+li:before{content:" | "}
+li:first-child:before{content:""}
+li ul{display:inherit;padding:0}
+li ul:before{content:"("}
+li ul:after{content:")"}
+li ul li:before{content:", "}
+li ul li:first-child:before{content:""}
+#footer{text-align:center}
+img{padding:5px;border:0}
